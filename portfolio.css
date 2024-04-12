@@ -52,3 +52,7 @@ a {
 #projects {
     margin: 2rem 0;
 }
+
+.project {
+    display: none;
+}
