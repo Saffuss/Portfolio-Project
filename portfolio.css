@@ -3,7 +3,7 @@ html {
 }
 
 * {
-    /*border: 1px solid black;*/
+    /*border: 1px solid white;*/
     margin: 0;
     padding: .25rem;
     align-items: center;
@@ -35,12 +35,15 @@ a {
 
 /* about */
 #about-container {
-    display: flex;
-    height: 40rem;
-    align-items: center;
-    justify-content: center;
+    border-radius: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid hsla(0, 0%, 100%, 75);
 }
 
-/*#me-image {
-    width: 50%;
-}*/
+#about {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
