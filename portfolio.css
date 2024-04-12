@@ -1,0 +1,46 @@
+html {
+    font-size: 16px;
+}
+
+* {
+    /*border: 1px solid black;*/
+    margin: 0;
+    padding: .25rem;
+    align-items: center;
+    list-style: none;
+    color: white;
+    background-color: hsl(0, 0%, 10%);
+    border-radius: .5rem;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+/* header and footer */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav, .footer-items {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    padding: .5rem;
+}
+
+/* about */
+#about-container {
+    display: flex;
+    height: 40rem;
+    align-items: center;
+    justify-content: center;
+}
+
+/*#me-image {
+    width: 50%;
+}*/

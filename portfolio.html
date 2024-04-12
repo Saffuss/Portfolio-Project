@@ -13,7 +13,7 @@
     <header>
         <h1 id="header-title">Smith Fusselman</h1>
         <nav>
-            <a class="nav-link" href="#about">About Me</a>
+            <a class="nav-link" href="#about-container">About Me</a>
             <a class="nav-link" href="#projects">Projects</a>
             <a class="nav-link" href="#contact">Contact Me</a>
         </nav>
@@ -21,30 +21,32 @@
 
     <main>
 
-        <div id="about">
-            <div>
+        <div id="about-container">
+            <div id="about">
                 <h2>About Me</h2>
                 <p>Hi! My name is Smith and I'm a junior web developer from the United States. Cool stuff. Also, here's something interesting:</p>
                 <p>Once upon a time in a far-off galaxy of cheese and stardust, there existed a peculiar species known as the Melodious Muffins. These muffins didn't just hum a tune or two; they sang entire symphonies while baking in the cosmic ovens of the Milky Whey Bakery. Led by Maestro Muffin, a blueberry-infused virtuoso, the Melodious Muffins delighted in harmonizing the cosmic frequencies emitted by interstellar toasters. Their songs, rumored to summon dancing spatulas and twirling whisks, attracted curious space travelers seeking the ultimate culinary concert. Legend has it that those fortunate enough to taste a Melodious Muffin's creation were blessed with dreams of fluffy galaxies and chocolate nebulae, forever seeking the next cosmic bakery adventure amidst the twinkling crumbs of the universe. -ChatGPT</p>
             </div>
-            <img src="C:\Users\Joshua Fusselman\Downloads\IMG_8711.jpg" alt="Photo of Me">
+            <img id="me-image" src="C:\Users\Joshua Fusselman\Downloads\IMG_8711.jpg" alt="Photo of Me">
         </div>
 
         <div id="projects">
             <h2>Projects</h2>
             <ul>
-                <li>
+                <li class="project">
                     <img alt="Kronk and Bucky" src="https://pbs.twimg.com/media/EV_C9xTWsAk_ggO.jpg">
                     <h3>Learn Squirrel Squeak</h3>
                     <p>I created a home page for a company that teaches Squirrel Squeak. Kronk is the main instructor and Bucky the Squirrel is his assistant.</p>
                 </li>
-                <li>
+                <li class="project">
                     <img alt="Wizard or witch" src="https://i.pinimg.com/236x/af/14/b5/af14b59f237e5dd92a4125df4555f242.jpg">
                     <h3>Wizard's Recipe Book</h3>
                     <p>I created a bit of JavaScript code that every time you ran it it would randomly create a new recipe for a wizard's recipe book.</p>
                 </li>
-                <li>
+                <li class="project">
                     <img alt="Toothless" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/597b14fb-4b39-47a6-865f-c7b98cac5996/dfz0815-89258487-2da2-407b-9608-e7df65029bfa.png/v1/fill/w_1280,h_854,q_80,strp/toothless_by_laietano_dfz0815-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU0IiwicGF0aCI6IlwvZlwvNTk3YjE0ZmItNGIzOS00N2E2LTg2NWYtYzdiOThjYWM1OTk2XC9kZnowODE1LTg5MjU4NDg3LTJkYTItNDA3Yi05NjA4LWU3ZGY2NTAyOWJmYS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.B14ujOvojdnqSFTXH2MGkHFJLo-wZn8XalRMOXlflH8">
+                    <h3>Berk Skyriders</h3>
+                    <p>I created the homepage for a dragon riders club.</p>
                 </li>
             </ul>
         </div>
@@ -52,7 +54,7 @@
         <footer id="contact">
             <h2>Contact Me</h2>
             <p>Have a web coding project you need help on? Message me and have me work on it for you!</p>
-            <ul>
+            <ul class="contact-items">
                 <li>smithfuss@gmail.com</li>
                 <li>(208)-296-1208</li>
                 <li>github.com/Saffuss</li>
