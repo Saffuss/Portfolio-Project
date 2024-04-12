@@ -39,6 +39,7 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-bottom: 1px solid hsla(0, 0%, 100%, 75);
+    margin: 1rem 0;
 }
 
 #about {
@@ -46,4 +47,8 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+#projects {
+    margin: 2rem 0;
 }
