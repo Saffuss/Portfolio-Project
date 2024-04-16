@@ -53,6 +53,10 @@ a {
     margin: 2rem 0;
 }
 
-.project {
-    display: none;
+.projects {
+    height: 10rem;
+}
+
+.project > img {
+    height: 20%;
 }

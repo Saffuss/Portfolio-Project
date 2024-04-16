@@ -63,7 +63,7 @@ function changeProject() {
     }
 
     thing(currentProjectIndex);
-    document.addEventListener("click", next());
+    document.addEventListener("click", next);
 }
 
-document.addEventListener("click", changeProject);
+changeProject();
